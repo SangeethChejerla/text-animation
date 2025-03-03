@@ -150,7 +150,7 @@ export default function MorphingText() {
 
         // Return to normal
         glitchTimeline.to([glitchBefore, glitchAfter], {
-          x: [5, -5],
+          x: 0,
           y: 0,
           skewX: 0,
           duration: 0.5,
