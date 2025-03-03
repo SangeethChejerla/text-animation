@@ -95,7 +95,7 @@ export default function TextMasking() {
       textElement.style.color = "transparent"
       textElement.style.webkitTextStroke = "2px white"
       textElement.style.backgroundClip = "text"
-      textElement.style.WebkitBackgroundClip = "text"
+      textElement.style.webkitBackgroundClip = "text"
 
       // Create a div for the animated background
       const bgElement = document.createElement("div")
